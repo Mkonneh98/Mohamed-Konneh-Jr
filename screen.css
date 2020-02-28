@@ -79,12 +79,24 @@ h2 {
   text-align: center;
   border: 1px solid green;
 }
+h3 {
+  padding: .5em;
+  padding-bottom: .5em;
+  color: grey;
+  text-align: center;
+  border: 1px solid green;
+}
 img {
      display: block;
-     max-width: 100%;
+     max-width: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .photo {
-     padding: .5em;
-     background: black;
+     padding: .1em;
      color: white;
 }
