@@ -69,26 +69,30 @@ h1 b{
 p {
   padding: .5em;
   padding-bottom: .5em;
-  color: grey;
+  color: black;
   text-indent: 40px;
 }
 h2 {
   padding: .5em;
   padding-bottom: .5em;
-  color: grey;
+  color: black;
   text-align: center;
   border: 1px solid green;
 }
 h3 {
   padding: .5em;
   padding-bottom: .5em;
-  color: grey;
+  color: black;
   text-align: center;
   border: 1px solid green;
 }
 img {
      display: block;
      max-width: 50%;
+}
+float img{
+  float: left;
+  width: 50%;
 }
 .center {
   display: block;
@@ -97,6 +101,18 @@ img {
   width: 50%;
 }
 .photo {
-     padding: .1em;
+     padding: 1em;
+  margins:0em;
+  background: grey;
+  background-length: .1em;
      color: white;
+}
+p {
+  background: lightblue;
+  padding: 48px;
+  border: 48px black;
+}
+b {
+  background: yellow;
+  display: block;
 }
