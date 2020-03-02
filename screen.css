@@ -55,25 +55,15 @@ html {
 h1 {
   font-size: 2em;
   font-style: oblique;
-  line-height: 1.0em;
+  line-height: 2.0em;
   padding: .5em;
   color:grey;
-  border-bottom: .005em solid aquamarine;
-  padding-bottom: .5em;
-  margin-bottom: 0.5em;
-}
-h1 b{
-     display: block;
-     color: #777;
-}
-h2 {
-  padding: .5em;
-  padding-bottom: .5em;
-  color: black;
+  border-bottom: 1em solid aquamarine;
+  border-top: 1em solid aquamarine;
+  border-left: 1em solid aquamarine;
+  border-right: 1em solid aquamarine;
   text-align: center;
-  border: 1px solid green;
 }
-
 p {
   padding: .5em;
   padding-bottom: .5em;
@@ -82,13 +72,6 @@ p {
   background: lightblue;
   padding: 48px;
   border: 48px black;
-}
-h3 {
-  padding: .5em;
-  padding-bottom: .5em;
-  color: black;
-  text-align: center;
-  border: 1px solid green;
 }
 img {
      display: block;
