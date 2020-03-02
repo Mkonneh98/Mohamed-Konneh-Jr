@@ -79,6 +79,9 @@ p {
   padding-bottom: .5em;
   color: black;
   text-indent: 40px;
+  background: lightblue;
+  padding: 48px;
+  border: 48px black;
 }
 h3 {
   padding: .5em;
@@ -104,10 +107,15 @@ img {
   background-length: .1em;
      color: white;
 }
-p {
-  background: lightblue;
-  padding: 48px;
-  border: 48px black;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 b {
   background: yellow;
