@@ -75,8 +75,11 @@ p {
 }
 ul {
      text-align: center;
+     font-size: 2em;
      padding: 2em;
-
+}
+li {
+     padding: .25em;
 }
 img {
      display: block;
@@ -89,8 +92,7 @@ img {
   width: 50%;
 }
 .photo {
-     padding: 1em;
-  margins:0em;
+     padding: 4em;
   background: grey;
   background-length: .1em;
      color: white;
