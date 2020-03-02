@@ -68,7 +68,7 @@ p {
   padding-bottom: .5em;
   color: darkred;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.5em;
   background: lightblue;
   padding: 48px;
   border: 48px black;
@@ -83,7 +83,11 @@ li {
 }
 img {
      display: block;
+     border-radius: 8px;
      max-width: 100%;
+}
+.footer {
+     text-alight: center;
 }
 .center {
   display: block;
@@ -91,12 +95,13 @@ img {
   margin-right: auto;
   width: 50%;
 }
-.photo {
+/*.photo {
      padding: 4em;
   background: grey;
   background-length: .1em;
      color: white;
 }
+*/
 .column {
   float: left;
   width: 33.33%;
