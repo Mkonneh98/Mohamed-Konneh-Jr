@@ -122,8 +122,20 @@ img {
      border-radius: 8px;
      max-width: 100%;
 }
+.box{
+display: block;
+border-radius: 8px;
+max-width: 100%;
+padding-bottom: 2em;
+padding-right: 2em;
+padding-left: 2em;
+}
 .footer {
      text-alight: center;
+     background: red;
+     background-color: red;
+     border-radius: 1px;
+
 }
 .center {
   display: block;
@@ -131,13 +143,6 @@ img {
   margin-right: auto;
   width: 50%;
 }
-/*.photo {
-     padding: 4em;
-  background: grey;
-  background-length: .1em;
-     color: white;
-}
-*/
 .column {
   float: left;
   width: 33.33%;
@@ -196,7 +201,7 @@ img {
     position: absolute;
     right: 0;
     top: 0;
-  }
+}
   .topnav.responsive a {
     float: none;
     display: block;
