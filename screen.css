@@ -122,7 +122,7 @@ img {
      border-radius: 8px;
      max-width: 100%;
 }
-.box{
+/*.box{
 display: block;
 
 border-radius: 8px;
@@ -130,6 +130,7 @@ width: 200em;
 max-width: 150%;
 padding-bottom: 2em;
 }
+*/
 .footer {
      text-alight: center;
      background: red;
