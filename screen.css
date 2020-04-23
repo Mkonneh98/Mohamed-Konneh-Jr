@@ -76,7 +76,7 @@ html {
 }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
@@ -122,7 +122,7 @@ img {
      border-radius: 8px;
      max-width: 100%;
 }
-/*.box{
+.box{
 display: block;
 
 border-radius: 8px;
@@ -130,13 +130,11 @@ width: 200em;
 max-width: 150%;
 padding-bottom: 2em;
 }
-*/
 .footer {
      text-alight: center;
      background: red;
      background-color: red;
      border-radius: 1px;
-
 }
 .center {
   display: block;
@@ -166,6 +164,14 @@ padding-bottom: 2em;
 }
 .references p {
   padding-bottom: 3em;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 @media screen and (min-width: 320px){
   .references{
