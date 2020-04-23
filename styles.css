@@ -61,7 +61,7 @@ html {
 /* Style the links inside the navigation bar */
 
 body {
-    background-color: aquamarine;
+    background-color: grey;
 }
 h1 {
   font-size: 2em;
@@ -95,7 +95,7 @@ li {
 img {
      display: block;
      border-radius: 8px;
-     max-width: 100%;
+     max-width: 80%;
 }
 .box{
 display: block;
